@@ -1,0 +1,27 @@
+{
+    "name": "li0nel/laravel-drip",
+    "authors": [
+        {
+            "name": "Lionel Martin",
+            "email": "hi@getlionel.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "li0nel\\Drip\\": "src"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "li0nel\\Drip\\DripServiceProvider"
+        ],
+        "aliases": {
+          "Drip": "li0nel\\Drip\\DripFacade"
+        }
+      }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    }
+}
