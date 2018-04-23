@@ -1,4 +1,4 @@
-#  Laravel package to send events and tags in Drip.com
+#  Send Events and Tags in Drip.com
 
 Using this package you can register Events and Tags straight from your Eloquent models.
 
